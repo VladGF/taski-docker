@@ -1,6 +1,8 @@
 """Файл конфигурации проекта Taski-docker."""
 from pathlib import Path
+
 from dotenv import load_dotenv, find_dotenv
+
 import os
 
 
