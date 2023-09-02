@@ -3,7 +3,9 @@ from pathlib import Path
 from dotenv import load_dotenv, find_dotenv
 import os
 
+
 load_dotenv(find_dotenv())
+
 HOSTS = os.environ['ALLOWED_HOSTS']
 
 BASE_DIR = Path(__file__).resolve().parent.parent
