@@ -14,7 +14,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 
 DEBUG = False
 
-ALLOWED_HOSTS =  HOSTS.split()
+ALLOWED_HOSTS = HOSTS.split()
 
 # Application definition
 
