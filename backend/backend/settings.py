@@ -1,10 +1,6 @@
 """Файл конфигурации проекта Taski-docker."""
-from pathlib import Path
-
 import os
-from dotenv import load_dotenv, find_dotenv
-
-load_dotenv(find_dotenv())
+from pathlib import Path
 
 HOSTS = os.environ['ALLOWED_HOSTS']
 
