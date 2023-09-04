@@ -5,7 +5,6 @@ from pathlib import Path
 from dotenv import find_dotenv, load_dotenv
 
 load_dotenv(find_dotenv())
-
 HOSTS = os.environ['ALLOWED_HOSTS']
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -15,7 +14,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 
 DEBUG = False
 
-ALLOWED_HOSTS = HOSTS.split()
+ALLOWED_HOSTS =  HOSTS.split()
 
 # Application definition
 
